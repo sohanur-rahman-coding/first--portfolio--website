@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.font-open-snas {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+header {
+    background-color: #FFF8F3;
+    background: url("./images/developer.png"), url("./images/header_bg.png"), #FFF8F3;
+    background-position: 23px 38px , bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+nav {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+
+}
+
+.logo-r {
+    color: #FD6E0A;
+
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+nav .menu a {
+    text-decoration: none;
+    font: 20px;
+    color: #474747;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 5px;
+    font: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banner {
+    margin: 47px 38px 0px 230px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner .banner-content h2 {
+    font-size: 45;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    font-size: 85;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+#banner .banner-content p {
+    font-size: 18;
+    /* font-weight: 900; */
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img {
+    max-width: 584px;
+    vertical-align: middle;
+}
+
+/* aaaabout section  */
+#about {
+    padding-top: 130px;
+}
+
+#about .about-content {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.about-content {
+    max-width: 827px;
+    text-align: center;
+
+}
+
+.about-content h2 {
+    font: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+
+}
+
+.about-content .about-heading p {
+    font: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#about .about-content .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content .about-info p {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-content .about-info h4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+#skill {
+    margin-top: 130px;
+}
+
+#skill .skill-content {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+#skill .skill-content .skill-heading {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-content .skill-heading h1 {
+    margin-bottom: 30px;
+}
+
+.skill-content .skill-heading p {
+    font: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+#skill .skill-content .skill-box {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill-box .box-card {
+    padding: 30px;
+    /* border: 1px solid black; */
+    box-shadow: 0 6px 50px 0 #0000002f;
+    max-width: 267px;
+
+}
+
+.box-card img {
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.box-card h2 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.box-card p {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* resume section  */
+#resume {
+    margin-top: 130px;
+}
+
+#resume .resume-content {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+#resume .resume-heading {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.resume-content .resume-tittle {
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+hr {
+    margin: 30px 0 30px;
+}
+
+.resume-card .resume-card-heading {
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card .resume-info {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.resume-card .resume-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer .footer-container .social {
+    max-width: 562px;
+    margin-right: 117px;
+}
+
+.social h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.social p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.social .icon {
+    width: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+footer .footer-container .form {
+    max-width: 441px;
+
+}
+
+.form h2 {
+
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+
+}
+
+.footer-container form input[type="text"] ,.footer-container form textarea{
+    width: 441px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+
+
+}
